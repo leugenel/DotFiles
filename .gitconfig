@@ -1,1 +1,11 @@
-/Users/eugeneleibovich/.gitconfig
+[alias]
+	lol = log --graph --oneline --decorate --color
+  lg = log --color --graph --pretty=format:'%Cred%h%Creset %C(bold blue)%an%Creset: %C(yellow)%d%Creset %s %Cgreen(%ar)' --abbrev-commit
+  lga = log --color --graph --pretty=format:'%Cred%h%Creset %C(bold blue)%an%Creset: %C(yellow)%d%Creset %s %Cgreen(%ar)' --abbrev-commit --all
+  myb = ! git for-each-ref --format='%(authorname) %09 %(refname)' | sort | grep eugene
+	pushf = push --force-with-lease
+[user]
+	name = eugeneleibovich
+	email = eugene@varada.io
+[gui]
+  editor = nano
