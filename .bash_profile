@@ -65,6 +65,7 @@ alias vdbg_build='cd ~/vagrant/vbox; vagrant ssh -c "cd /root/src/varada; presto
 alias lc="echo 'load presto-admin config: ~/.varada.conf'; source ~/.varada.conf"
 alias deploy="~/src/varada/presto-varada/scripts/deploy; lc"
 alias deploy_dont_test="~/src/varada/presto-varada/scripts/deploy_dont_test; lc"
+alias anaconda='source /anaconda3/bin/activate'
 nlc() {
     cd ~/src/varada/presto-varada/terraform/cluster
     source ~/src/varada/presto-varada/bin/.vcstate
